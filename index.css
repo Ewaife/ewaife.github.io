@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    margin-top: 56px; /* Offset for fixed navbar */
 }
 
 header {
@@ -10,19 +11,26 @@ header {
     font-size: 1.2rem;
 }
 
-#skills ul {
-    list-style-type: none;
-    padding: 0;
+.skill {
+    margin-bottom: 20px;
 }
 
-#skills ul li {
-    display: inline;
-    font-size: 1.1rem;
+.skill h5 {
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+    line-height: 30px;
+    font-size: 1rem;
 }
 
 #projects .card {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 footer {
