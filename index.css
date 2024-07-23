@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline;
+    font-size: 1.1rem;
+}
+
+#projects .card {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+footer {
+    background-color: #343a40;
+}
